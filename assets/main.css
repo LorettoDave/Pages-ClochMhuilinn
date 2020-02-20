@@ -394,11 +394,32 @@ h1 .li, h2 .li, h3 .li, p .li {
 
 #text03 {
 	text-align: left;
-	color: rgba(152,158,166,0.588);
+	color: rgba(152,158,166,0.89);
 	font-family: 'Arial', sans-serif;
 	font-size: 1em;
 	line-height: 1.75;
 	font-weight: 400;
+}
+
+#text04 br + br {
+	margin-top: 1.05rem;
+}
+
+#text04 {
+	text-align: center;
+	color: rgba(152,158,166,0.89);
+	font-family: 'Arial', sans-serif;
+	font-size: 0.5em;
+	line-height: 1.75;
+	font-weight: 400;
+}
+
+#text04 a {
+	text-decoration: underline;
+}
+
+#text04 a:hover {
+	text-decoration: none;
 }
 
 .container > .inner {
@@ -738,6 +759,13 @@ h1 .li, h2 .li, h3 .li, p .li {
 		line-height: 1.75;
 	}
 	
+	#text04 {
+		letter-spacing: 0rem;
+		width: 100%;
+		font-size: 0.5em;
+		line-height: 1.75;
+	}
+	
 	#columns01 > .inner {
 		padding: 0rem 0rem;
 	}
@@ -938,6 +966,10 @@ h1 .li, h2 .li, h3 .li, p .li {
 	
 	#text03 {
 		font-size: 1em;
+	}
+	
+	#text04 {
+		font-size: 0.5em;
 	}
 	
 	#columns01 > .inner {
